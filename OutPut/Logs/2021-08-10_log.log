@@ -1,0 +1,185 @@
+2021-08-10 20:07:12,235 - zyc - INFO - 百度首页——搜索:查找('xpath', '//*[@id="kw"]')元素
+2021-08-10 20:07:12,236 - zyc - INFO - 等待元素('xpath', '//*[@id="kw"]')元素可见
+2021-08-10 20:07:12,277 - zyc - INFO - 百度首页——搜索:元素('xpath', '//*[@id="kw"]')可见，等待结束，等待开始时间：2021-08-10 20:07:12.236839,等待结束时间：2021-08-10 20:07:12.277730,等待时长：0
+2021-08-10 20:07:12,277 - zyc - INFO - 百度首页——搜索:('xpath', '//*[@id="kw"]')元素输入内容：中国
+2021-08-10 20:07:12,478 - zyc - INFO - 百度首页——搜索:查找('xpath', '//*[@id="su"]')元素
+2021-08-10 20:07:12,478 - zyc - INFO - 等待元素('xpath', '//*[@id="su"]')元素可见
+2021-08-10 20:07:12,559 - zyc - INFO - 百度首页——搜索:元素('xpath', '//*[@id="su"]')可见，等待结束，等待开始时间：2021-08-10 20:07:12.479713,等待结束时间：2021-08-10 20:07:12.559500,等待时长：0
+2021-08-10 20:07:12,559 - zyc - INFO - 百度首页——搜索:点击('xpath', '//*[@id="su"]')元素
+2021-08-10 20:07:12,700 - zyc - INFO - type
+2021-08-10 20:07:38,100 - zyc - INFO - 百度首页——搜索:查找('xpath', '//*[@id="kw"]')元素
+2021-08-10 20:07:38,102 - zyc - INFO - 等待元素('xpath', '//*[@id="kw"]')元素可见
+2021-08-10 20:07:38,168 - zyc - INFO - 百度首页——搜索:元素('xpath', '//*[@id="kw"]')可见，等待结束，等待开始时间：2021-08-10 20:07:38.102511,等待结束时间：2021-08-10 20:07:38.168335,等待时长：0
+2021-08-10 20:07:38,168 - zyc - INFO - 百度首页——搜索:('xpath', '//*[@id="kw"]')元素输入内容：中国
+2021-08-10 20:07:38,291 - zyc - INFO - 百度首页——搜索:查找('xpath', '//*[@id="su"]')元素
+2021-08-10 20:07:38,292 - zyc - INFO - 等待元素('xpath', '//*[@id="su"]')元素可见
+2021-08-10 20:07:38,409 - zyc - INFO - 百度首页——搜索:元素('xpath', '//*[@id="su"]')可见，等待结束，等待开始时间：2021-08-10 20:07:38.293001,等待结束时间：2021-08-10 20:07:38.409566,等待时长：0
+2021-08-10 20:07:38,409 - zyc - INFO - 百度首页——搜索:点击('xpath', '//*[@id="su"]')元素
+2021-08-10 20:07:38,475 - zyc - INFO - baidu_search_case
+2021-08-10 20:37:05,808 - zyc - DEBUG - GET | https://www.baidu.com/
+2021-08-10 20:37:05,810 - zyc - DEBUG - 请求成功: <Response [200]>
+<!DOCTYPE html>
+<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta http-equiv=X-UA-Compatible content=IE=Edge><meta content=always name=referrer><link rel=stylesheet type=text/css href=https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/bdorz/baidu.min.css><title>百度一下，你就知道</title></head> <body link=#0000cc> <div id=wrapper> <div id=head> <div class=head_wrapper> <div class=s_form> <div class=s_form_wrapper> <div id=lg> <img hidefocus=true src=//www.baidu.com/img/bd_logo1.png width=270 height=129> </div> <form id=form name=f action=//www.baidu.com/s class=fm> <input type=hidden name=bdorz_come value=1> <input type=hidden name=ie value=utf-8> <input type=hidden name=f value=8> <input type=hidden name=rsv_bp value=1> <input type=hidden name=rsv_idx value=1> <input type=hidden name=tn value=baidu><span class="bg s_ipt_wr"><input id=kw name=wd class=s_ipt value maxlength=255 autocomplete=off autofocus=autofocus></span><span class="bg s_btn_wr"><input type=submit id=su value=百度一下 class="bg s_btn" autofocus></span> </form> </div> </div> <div id=u1> <a href=http://news.baidu.com name=tj_trnews class=mnav>新闻</a> <a href=https://www.hao123.com name=tj_trhao123 class=mnav>hao123</a> <a href=http://map.baidu.com name=tj_trmap class=mnav>地图</a> <a href=http://v.baidu.com name=tj_trvideo class=mnav>视频</a> <a href=http://tieba.baidu.com name=tj_trtieba class=mnav>贴吧</a> <noscript> <a href=http://www.baidu.com/bdorz/login.gif?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2f%3fbdorz_come%3d1 name=tj_login class=lb>登录</a> </noscript> <script>document.write('<a href="http://www.baidu.com/bdorz/login.gif?login&tpl=mn&u='+ encodeURIComponent(window.location.href+ (window.location.search === "" ? "?" : "&")+ "bdorz_come=1")+ '" name="tj_login" class="lb">登录</a>');
+                </script> <a href=//www.baidu.com/more/ name=tj_briicon class=bri style="display: block;">更多产品</a> </div> </div> </div> <div id=ftCon> <div id=ftConw> <p id=lh> <a href=http://home.baidu.com>关于百度</a> <a href=http://ir.baidu.com>About Baidu</a> </p> <p id=cp>&copy;2017&nbsp;Baidu&nbsp;<a href=http://www.baidu.com/duty/>使用百度前必读</a>&nbsp; <a href=http://jianyi.baidu.com/ class=cp-feedback>意见反馈</a>&nbsp;京ICP证030173号&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>
+
+2021-08-10 20:44:14,107 - zyc - INFO - GET | https://www.baidu.com/
+2021-08-10 20:44:14,120 - zyc - INFO - 请求成功: <Response [200]>
+<!DOCTYPE html>
+<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta http-equiv=X-UA-Compatible content=IE=Edge><meta content=always name=referrer><link rel=stylesheet type=text/css href=https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/bdorz/baidu.min.css><title>百度一下，你就知道</title></head> <body link=#0000cc> <div id=wrapper> <div id=head> <div class=head_wrapper> <div class=s_form> <div class=s_form_wrapper> <div id=lg> <img hidefocus=true src=//www.baidu.com/img/bd_logo1.png width=270 height=129> </div> <form id=form name=f action=//www.baidu.com/s class=fm> <input type=hidden name=bdorz_come value=1> <input type=hidden name=ie value=utf-8> <input type=hidden name=f value=8> <input type=hidden name=rsv_bp value=1> <input type=hidden name=rsv_idx value=1> <input type=hidden name=tn value=baidu><span class="bg s_ipt_wr"><input id=kw name=wd class=s_ipt value maxlength=255 autocomplete=off autofocus=autofocus></span><span class="bg s_btn_wr"><input type=submit id=su value=百度一下 class="bg s_btn" autofocus></span> </form> </div> </div> <div id=u1> <a href=http://news.baidu.com name=tj_trnews class=mnav>新闻</a> <a href=https://www.hao123.com name=tj_trhao123 class=mnav>hao123</a> <a href=http://map.baidu.com name=tj_trmap class=mnav>地图</a> <a href=http://v.baidu.com name=tj_trvideo class=mnav>视频</a> <a href=http://tieba.baidu.com name=tj_trtieba class=mnav>贴吧</a> <noscript> <a href=http://www.baidu.com/bdorz/login.gif?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2f%3fbdorz_come%3d1 name=tj_login class=lb>登录</a> </noscript> <script>document.write('<a href="http://www.baidu.com/bdorz/login.gif?login&tpl=mn&u='+ encodeURIComponent(window.location.href+ (window.location.search === "" ? "?" : "&")+ "bdorz_come=1")+ '" name="tj_login" class="lb">登录</a>');
+                </script> <a href=//www.baidu.com/more/ name=tj_briicon class=bri style="display: block;">更多产品</a> </div> </div> </div> <div id=ftCon> <div id=ftConw> <p id=lh> <a href=http://home.baidu.com>关于百度</a> <a href=http://ir.baidu.com>About Baidu</a> </p> <p id=cp>&copy;2017&nbsp;Baidu&nbsp;<a href=http://www.baidu.com/duty/>使用百度前必读</a>&nbsp; <a href=http://jianyi.baidu.com/ class=cp-feedback>意见反馈</a>&nbsp;京ICP证030173号&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>
+
+2021-08-10 20:45:30,834 - zyc - INFO - GET | https://www.baidu.com/414
+2021-08-10 20:45:30,849 - zyc - INFO - 请求成功: <Response [404]>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /414 was not found on this server.</p>
+</body></html>
+
+2021-08-10 21:07:33,026 - zyc - INFO - GET | https://www.baidu.com/414
+2021-08-10 21:07:33,026 - zyc - ERROR - 请求异常：
+Traceback (most recent call last):
+  File "D:\work\PyCharm Community Edition 2020.3\web_auto_test\Common\BaseRequest.py", line 55, in send
+    logger.info('headers:\n {0}'.format(response.headers()))
+TypeError: 'CaseInsensitiveDict' object is not callable
+2021-08-10 21:07:49,540 - zyc - INFO - GET | https://www.baidu.com
+2021-08-10 21:07:49,553 - zyc - ERROR - 请求异常：
+Traceback (most recent call last):
+  File "D:\work\PyCharm Community Edition 2020.3\web_auto_test\Common\BaseRequest.py", line 55, in send
+    logger.info('headers:\n {0}'.format(response.headers()))
+TypeError: 'CaseInsensitiveDict' object is not callable
+2021-08-10 21:08:00,168 - zyc - INFO - GET | https://www.baidu.com/
+2021-08-10 21:08:00,171 - zyc - ERROR - 请求异常：
+Traceback (most recent call last):
+  File "D:\work\PyCharm Community Edition 2020.3\web_auto_test\Common\BaseRequest.py", line 55, in send
+    logger.info('headers:\n {0}'.format(response.headers()))
+TypeError: 'CaseInsensitiveDict' object is not callable
+2021-08-10 21:09:29,668 - zyc - INFO - GET | https://www.baidu.com/
+2021-08-10 21:09:29,684 - zyc - INFO - headers:
+ {'Cache-Control': 'private, no-cache, no-store, proxy-revalidate, no-transform', 'Connection': 'keep-alive', 'Content-Encoding': 'gzip', 'Content-Type': 'text/html', 'Date': 'Tue, 10 Aug 2021 13:09:29 GMT', 'Last-Modified': 'Mon, 23 Jan 2017 13:23:46 GMT', 'Pragma': 'no-cache', 'Server': 'bfe/1.0.8.18', 'Set-Cookie': 'BDORZ=27315; max-age=86400; domain=.baidu.com; path=/', 'Transfer-Encoding': 'chunked'}
+2021-08-10 21:09:29,684 - zyc - INFO - 请求成功: <Response [200]>
+<!DOCTYPE html>
+<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta http-equiv=X-UA-Compatible content=IE=Edge><meta content=always name=referrer><link rel=stylesheet type=text/css href=https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/bdorz/baidu.min.css><title>百度一下，你就知道</title></head> <body link=#0000cc> <div id=wrapper> <div id=head> <div class=head_wrapper> <div class=s_form> <div class=s_form_wrapper> <div id=lg> <img hidefocus=true src=//www.baidu.com/img/bd_logo1.png width=270 height=129> </div> <form id=form name=f action=//www.baidu.com/s class=fm> <input type=hidden name=bdorz_come value=1> <input type=hidden name=ie value=utf-8> <input type=hidden name=f value=8> <input type=hidden name=rsv_bp value=1> <input type=hidden name=rsv_idx value=1> <input type=hidden name=tn value=baidu><span class="bg s_ipt_wr"><input id=kw name=wd class=s_ipt value maxlength=255 autocomplete=off autofocus=autofocus></span><span class="bg s_btn_wr"><input type=submit id=su value=百度一下 class="bg s_btn" autofocus></span> </form> </div> </div> <div id=u1> <a href=http://news.baidu.com name=tj_trnews class=mnav>新闻</a> <a href=https://www.hao123.com name=tj_trhao123 class=mnav>hao123</a> <a href=http://map.baidu.com name=tj_trmap class=mnav>地图</a> <a href=http://v.baidu.com name=tj_trvideo class=mnav>视频</a> <a href=http://tieba.baidu.com name=tj_trtieba class=mnav>贴吧</a> <noscript> <a href=http://www.baidu.com/bdorz/login.gif?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2f%3fbdorz_come%3d1 name=tj_login class=lb>登录</a> </noscript> <script>document.write('<a href="http://www.baidu.com/bdorz/login.gif?login&tpl=mn&u='+ encodeURIComponent(window.location.href+ (window.location.search === "" ? "?" : "&")+ "bdorz_come=1")+ '" name="tj_login" class="lb">登录</a>');
+                </script> <a href=//www.baidu.com/more/ name=tj_briicon class=bri style="display: block;">更多产品</a> </div> </div> </div> <div id=ftCon> <div id=ftConw> <p id=lh> <a href=http://home.baidu.com>关于百度</a> <a href=http://ir.baidu.com>About Baidu</a> </p> <p id=cp>&copy;2017&nbsp;Baidu&nbsp;<a href=http://www.baidu.com/duty/>使用百度前必读</a>&nbsp; <a href=http://jianyi.baidu.com/ class=cp-feedback>意见反馈</a>&nbsp;京ICP证030173号&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>
+
+2021-08-10 21:56:34,403 - zyc - ERROR - 用户名密码验证失败！(550, b'User has no permission')
+Traceback (most recent call last):
+  File "D:\work\PyCharm Community Edition 2020.3\web_auto_test\Common\email.py", line 74, in send
+    smtp_server.login(self.sender, self.password)  # 登录
+  File "D:\work\python3.9.0\lib\smtplib.py", line 734, in login
+    raise last_exception
+  File "D:\work\python3.9.0\lib\smtplib.py", line 723, in login
+    (code, resp) = self.auth(
+  File "D:\work\python3.9.0\lib\smtplib.py", line 646, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (550, b'User has no permission')
+2021-08-10 21:56:34,434 - zyc - INFO - 发送邮件"test"成功! 收件人：643069710@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2021-08-10 21:56:36,684 - zyc - ERROR - 用户名密码验证失败！(550, b'User has no permission')
+Traceback (most recent call last):
+  File "D:\work\PyCharm Community Edition 2020.3\web_auto_test\Common\email.py", line 74, in send
+    smtp_server.login(self.sender, self.password)  # 登录
+  File "D:\work\python3.9.0\lib\smtplib.py", line 734, in login
+    raise last_exception
+  File "D:\work\python3.9.0\lib\smtplib.py", line 723, in login
+    (code, resp) = self.auth(
+  File "D:\work\python3.9.0\lib\smtplib.py", line 646, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (550, b'User has no permission')
+2021-08-10 21:56:36,684 - zyc - INFO - 发送邮件"test"成功! 收件人：643069710@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2021-08-10 22:09:34,093 - zyc - ERROR - 用户名密码验证失败！(535, b'Error: authentication failed')
+Traceback (most recent call last):
+  File "D:\work\PyCharm Community Edition 2020.3\web_auto_test\Common\email.py", line 74, in send
+    smtp_server.login(self.sender, self.password)  # 登录
+  File "D:\work\python3.9.0\lib\smtplib.py", line 734, in login
+    raise last_exception
+  File "D:\work\python3.9.0\lib\smtplib.py", line 723, in login
+    (code, resp) = self.auth(
+  File "D:\work\python3.9.0\lib\smtplib.py", line 646, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Error: authentication failed')
+2021-08-10 22:09:34,103 - zyc - INFO - 发送邮件"test"成功! 收件人：643069710@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2021-08-10 22:09:58,369 - zyc - ERROR - 用户名密码验证失败！(535, b'Error: authentication failed')
+Traceback (most recent call last):
+  File "D:\work\PyCharm Community Edition 2020.3\web_auto_test\Common\email.py", line 74, in send
+    smtp_server.login(self.sender, self.password)  # 登录
+  File "D:\work\python3.9.0\lib\smtplib.py", line 734, in login
+    raise last_exception
+  File "D:\work\python3.9.0\lib\smtplib.py", line 723, in login
+    (code, resp) = self.auth(
+  File "D:\work\python3.9.0\lib\smtplib.py", line 646, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Error: authentication failed')
+2021-08-10 22:09:58,373 - zyc - INFO - 发送邮件"test"成功! 收件人：643069710@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2021-08-10 22:12:09,531 - zyc - ERROR - 用户名密码验证失败！(535, b'Error: authentication failed')
+Traceback (most recent call last):
+  File "D:\work\PyCharm Community Edition 2020.3\web_auto_test\Common\email.py", line 74, in send
+    smtp_server.login(self.sender, self.password)  # 登录
+  File "D:\work\python3.9.0\lib\smtplib.py", line 734, in login
+    raise last_exception
+  File "D:\work\python3.9.0\lib\smtplib.py", line 723, in login
+    (code, resp) = self.auth(
+  File "D:\work\python3.9.0\lib\smtplib.py", line 646, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Error: authentication failed')
+2021-08-10 22:12:09,531 - zyc - INFO - 发送邮件"test"成功! 收件人：643069710@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2021-08-10 22:12:10,781 - zyc - INFO - 发送邮件"test"成功! 收件人：643069710@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2021-08-10 22:22:22,200 - zyc - ERROR - 用户名密码验证失败！(535, b'Error: authentication failed')
+Traceback (most recent call last):
+  File "D:\work\PyCharm Community Edition 2020.3\web_auto_test\Common\email.py", line 74, in send
+    smtp_server.login(self.sender, self.password)  # 登录
+  File "D:\work\python3.9.0\lib\smtplib.py", line 734, in login
+    raise last_exception
+  File "D:\work\python3.9.0\lib\smtplib.py", line 723, in login
+    (code, resp) = self.auth(
+  File "D:\work\python3.9.0\lib\smtplib.py", line 646, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Error: authentication failed')
+2021-08-10 22:22:22,211 - zyc - INFO - 发送邮件"test"成功! 收件人：643069710@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2021-08-10 22:22:23,653 - zyc - INFO - 发送邮件"test"成功! 收件人：643069710@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2021-08-10 22:30:17,068 - zyc - ERROR - 发送邮件失败,无法连接到SMTP服务器，检查网络以及SMTP服务器. <traceback object at 0x00000190D563DE80>
+Traceback (most recent call last):
+  File "D:\work\PyCharm Community Edition 2020.3\web_auto_test\Common\email.py", line 69, in send
+    smtp_server = smtplib.SMTP(self.server,25)  # 连接sever
+  File "D:\work\python3.9.0\lib\smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "D:\work\python3.9.0\lib\smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "D:\work\python3.9.0\lib\smtplib.py", line 310, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "D:\work\python3.9.0\lib\socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "D:\work\python3.9.0\lib\socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2021-08-10 22:30:28,159 - zyc - ERROR - 发送邮件失败,无法连接到SMTP服务器，检查网络以及SMTP服务器. <traceback object at 0x00000190D56407C0>
+Traceback (most recent call last):
+  File "D:\work\PyCharm Community Edition 2020.3\web_auto_test\Common\email.py", line 69, in send
+    smtp_server = smtplib.SMTP(self.server,25)  # 连接sever
+  File "D:\work\python3.9.0\lib\smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "D:\work\python3.9.0\lib\smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "D:\work\python3.9.0\lib\smtplib.py", line 310, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "D:\work\python3.9.0\lib\socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "D:\work\python3.9.0\lib\socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2021-08-10 22:31:00,808 - zyc - ERROR - 发送邮件失败,无法连接到SMTP服务器，检查网络以及SMTP服务器. <traceback object at 0x000001BC2FD9DC40>
+Traceback (most recent call last):
+  File "D:\work\PyCharm Community Edition 2020.3\web_auto_test\Common\email.py", line 69, in send
+    smtp_server = smtplib.SMTP(self.server)  # 连接sever
+  File "D:\work\python3.9.0\lib\smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "D:\work\python3.9.0\lib\smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "D:\work\python3.9.0\lib\smtplib.py", line 310, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "D:\work\python3.9.0\lib\socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "D:\work\python3.9.0\lib\socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
