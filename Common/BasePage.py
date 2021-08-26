@@ -4,6 +4,8 @@
 # @Author  : zyc
 # @File    : BasePage.py
 # @Software: PyCharm
+from selenium.webdriver import ActionChains
+
 from Common.Logger import logger
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
@@ -20,7 +22,9 @@ class BasePage(object):
     """
     def __init__(self,driver):
         self.driver=driver
-    def wait_element_visible(self,locator,times=3,poll_frequency=0.5,doc=""):
+        #设置最长30s的隐式等待时间
+        self.driver.implicitly_wait(30)
+    def wait_element_visible(self,locator,times=30,poll_frequency=0.5,doc=""):
         """
         显性等待元素
         :param locator: 元素定位元组（定位类型，定位方式）
@@ -95,4 +99,42 @@ class BasePage(object):
             ele.text
         except:
             logger.error(f"{doc}:获取{locator}元素文本内容失败！",exc_info=True)
+    def dbclick_element(self,locator,doc=""):
+        """
+
+        :param locator: 元素定位
+        :param doc: 操作注释
+        :return:
+        """
+        ele=self.get_element(locator,doc=doc)
+        logger.info(f"{doc}:{locator}元素进行双击")
+        try:
+            ActionChains(self.driver).double_click(ele).perform()
+        except:
+            logger.error(f"{doc}:{locator}元素双击失败",exc_info=True)
+
+    def context_click_element(self,locator,doc=""):
+        """
+
+        :param locator:
+        :param doc:
+        :return:
+        """
+        ele=self.get_element(locator,doc=doc)
+        logger.info(f"{doc}:{locator}元素右击鼠标")
+        try:
+            ActionChains(self.driver).context_click(ele).perform()
+        except:
+            logger.error(f"{doc}:{locator}元素右击鼠标失败",exc_info=True)
+    def excute_script(self,js,doc=""):
+        """
+
+        :param js:
+        :return:
+        """
+        logger.info(f"{doc}:执行js（{js}）")
+        try:
+            self.driver.execute_script(js)
+        except:
+            logger.error(f"{doc}:执行js（{js}）")
 
